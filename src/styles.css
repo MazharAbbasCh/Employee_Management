@@ -1,3 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
 /* For CSS */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+.footer {
+    background-color: #f8f9fa;
+    /* Light gray background */
+    padding: 20px 0;
+    /* Vertical padding for spacing */
+    text-align: center;
+    /* Center the text and links */
+    border-top: 1px solid #e7e7e7;
+    /* Subtle border on top */
+}
+
+footer ul {
+    list-style-type: none;
+    /* Remove default list styling */
+    padding: 0;
+    /* Remove padding */
+    margin: 0;
+    /* Remove margin */
+}
+
+footer ul li {
+    display: inline-block;
+    /* Display list items horizontally */
+    margin: 0 15px;
+    /* Spacing between items */
+}
+
+footer ul li a {
+    color: #343a40;
+    /* Dark gray text color */
+    text-decoration: none;
+    /* Remove underline from links */
+    font-weight: 500;
+    /* Medium font weight for emphasis */
+    transition: color 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+footer ul li a:hover {
+    color: #007bff;
+    /* Change color on hover to Bootstrap primary color */
+}
+
+footer p {
+    color: #6c757d;
+    /* Subtle gray color for text */
+    font-size: 14px;
+    /* Slightly smaller font size */
+    margin-top: 15px;
+    /* Spacing above any additional text */
+}

@@ -12,6 +12,7 @@ import { EmployeeListComponent } from './employee-list/employee-list.component';
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     HttpClientModule,
     AppRoutingModule
   ],
