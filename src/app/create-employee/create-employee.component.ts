@@ -8,7 +8,12 @@ import { Employee } from '../employee';
 })
 export class CreateEmployeeComponent implements OnInit {
 
-  employee: Employee = new Employee();
+  employee: Employee = {
+    id: 0, // or null if your model allows null values
+    firstName: '',
+    lastName: '',
+    emailId: ''
+  };
 
   constructor() { }
 

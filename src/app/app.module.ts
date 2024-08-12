@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
     CreateEmployeeComponent
   ],
   imports: [
+    FormsModule,  // Import FormsModule for form handling in CreateEmployeeComponent
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
